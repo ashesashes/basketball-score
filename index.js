@@ -66,7 +66,7 @@ function checkWinner() {
     }
 }
 
-function startNewGame() {
+function newGame() {
    homeScore = 0;
     guestScore = 0;
     guestScorePoints.textContent = guestScore;
