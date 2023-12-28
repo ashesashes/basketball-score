@@ -75,7 +75,6 @@ function startNewGame() {
 }
 
 
-
 //stretch goals 
 
 //1 add a new game button - done ✅
