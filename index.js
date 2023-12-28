@@ -66,12 +66,19 @@ function checkWinner() {
     }
 }
 
+function startNewGame() {
+   homeScore = 0;
+    guestScore = 0;
+    guestScorePoints.textContent = guestScore;
+    homeScorePoints.textContent = homeScore;
+    console.log("Start new game button was clicked")
+}
 
 
 
 //stretch goals 
 
-//1 add a new game button 
+//1 add a new game button - done ✅
 // when I hit new game, it should reset current scores to 0
 
 
