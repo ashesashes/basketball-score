@@ -47,22 +47,22 @@ function guestPlusThree() {
 
 function checkWinner() {
     if (homeScore > guestScore) {
-        document.getElementById("home-score").style.backgroundColor = "#F94F6D"; 
+        document.getElementById("home-score").style.backgroundColor = "#DDD6FE"; 
         document.getElementById("home-score").style.color = "black"; 
         document.getElementById("guest-score").style.backgroundColor = "#0a0001";
-        document.getElementById("guest-score").style.color = "#F94F6D";
+        document.getElementById("guest-score").style.color = "#6D28D9";
     }
     else if (guestScore > homeScore) {
-        document.getElementById("guest-score").style.backgroundColor = "#F94F6D"; 
+        document.getElementById("guest-score").style.backgroundColor = "#DDD6FE"; 
         document.getElementById("guest-score").style.color = "black";
         document.getElementById("home-score").style.backgroundColor = "#0a0001";
-        document.getElementById("home-score").style.color = "#F94F6D";
+        document.getElementById("home-score").style.color = "#6D28D9";
     }
     else {
         document.getElementById("guest-score").style.backgroundColor = "#0a0001";
-        document.getElementById("guest-score").style.color = "#F94F6D";
+        document.getElementById("guest-score").style.color = "#6D28D9";
         document.getElementById("home-score").style.backgroundColor = "#0a0001";
-        document.getElementById("home-score").style.color = "#F94F6D";
+        document.getElementById("home-score").style.color = "#6D28D9";
     }
 }
 

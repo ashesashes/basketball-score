@@ -20,8 +20,8 @@ h3 {
     width: 575px;
     height: 385px;
     margin: auto;
-    background: #1B244A; 
-    color: white; 
+    background: #111827; 
+    color: #DDD6FE; 
     
 }
 
@@ -33,7 +33,7 @@ h3 {
 .score{
     background: #0a0001;
     font-size: 90px;
-    color: #F94F6D;
+    color: #6D28D9;
     width: 120px;
     margin: 20px;
     border-radius: 5px;
